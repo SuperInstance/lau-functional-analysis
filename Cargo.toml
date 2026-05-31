@@ -1,0 +1,11 @@
+[package]
+name = "lau-functional-analysis"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-functional-analysis"
+description = "Functional analysis library: Banach spaces, Hilbert spaces, bounded linear operators, spectral theory, Fredholm theory, Sobolev spaces, and agent function spaces"
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+serde = { version = "1", features = ["derive"] }
